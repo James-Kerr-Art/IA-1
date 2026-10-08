@@ -1,0 +1,89 @@
+* {
+	box-sizing: border-box;
+}
+
+body {
+	margin: 20px;
+	color: #f5f5f5;
+	background: linear-gradient(135deg, #101820, #050505);
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+a {
+	color: #2196f3;
+}
+
+a:hover {
+	color: #64b5f6;
+}
+
+img {
+	max-width: 100%;
+	height: auto;
+	border-radius: 12px;
+}
+
+.centered-img {
+    display: block;
+    margin: 0px auto;
+}
+
+.centered-text {
+    text-align: center;
+}
+
+.card,
+button {
+	background: linear-gradient(135deg, #263238, #111827);
+	border-radius: 8px;
+}
+
+#main-content {
+	padding: 24px;
+}
+
+.card p {
+	line-height: 1.6;
+}
+
+.card h2 {
+	color: #90caf9;
+}
+
+input text {
+	padding: 10px;
+	border: 1px solid #607d8b;
+}
+
+.navigation {
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  display: flex;
+  justify-content: space-between;
+  padding: 16px 32px;
+  margin: 16px;
+  border-radius: 12px;
+}
+
+.linkstostuff {
+  display: flex;
+  gap: 32px;         
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.linkstostuff a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.linkstostuff a:hover {
+  color: #aaa;
+}
+
+a:hover svg {
+  fill: #aeaeae;
+}
